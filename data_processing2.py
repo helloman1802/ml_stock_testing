@@ -22,8 +22,8 @@ def data_extraction(csv):
     y = df['Up or Down']
     x_np = x.as_matrix()
     y_np = y.as_matrix()
-    x_train = x_np[3000:3419]
-    y_train = y_np[3000:3419]
+    x_train = x_np[3300:3419]
+    y_train = y_np[3300:3419]
     x_test = x_np[-1:]
     y_test = y_np[-1:]
     return x_train, y_train, x_test, y_test
